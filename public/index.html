@@ -1,81 +1,195 @@
 <!DOCTYPE html>
-<html><head>
+<html lang="en-US">
+  <head>
 	<meta name="generator" content="Hugo 0.123.3">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="./css/demo-styling.css">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Your Site Description">
+<meta name="author" content="Your Name">
+
+<title>Your Site Name · Your Site Description</title>
+
+<link rel="canonical" href="/">
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/home.css" integrity="">
+<link rel="preload" href="/scss/base.css" as="style" onload="this.rel='stylesheet'" integrity="">
+
+
+
+<link rel="stylesheet" href="/scss/theme/default.css" integrity="">
+
+
+
+  <link rel="preconnect" href="https://-dsn.algolia.net" crossorigin />
   
+  <link rel="stylesheet" href="/scss/component/docsearch.css" integrity=""/>
+
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/img/icon/favicon.ico">
+<link rel="icon" href="/img/icon/icon-16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="/img/icon/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/img/icon/icon-180.png" sizes="180x180">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-xxxxxxxxxx"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-xxxxxxxxxx');
+</script>
+
+
+  </head>
+  <body>
+    <header id="site-header">
   
-  <title>Hugo &#43; Fleek Starter kit</title>
-</head><body><header>
-  <div class="hero-top">
-    <img src='./assets/fleekLogo.svg' height="87" />
-    <img src='./assets/plus.svg' />
-    <img src='./assets/logo.svg' height="57" />
+  <div id="site-header-brand">
+    <a href="/">Your Site Name</a>
   </div>
 
-  <p class='description'>
-    This is a template for creating a static site with Hugo and deploying it on Fleek.
-  </p>
-</header>
-<div id="content">
-<main>
-  <ul role="list" class='card-list'>
-    <li class='card'>
-      <a href="https://docs.fleek.xyz/">
-        <div class='card-top-row'>
-          <img src="./assets/fleekMark.svg" height=31 width=31 />
-          <h2>
-            Fleek Documentation
-          </h2>
-        </div>
-        <p>
-          Learn about Fleek & the available services by cheking our official docs.
-        </p>
-      </a>
-    </li>
-    <li class='card'>
-      <a href="https://gohugo.io/documentation/">
-        <div class='card-top-row'>
-          <img src="./assets/hugo-small.svg" height=31 width=31 />
-          <h2>
-            Hugo Documentation
-          </h2>
-        </div>
-        <p>
-          Learn more about Hugo in their official docs.
-        </p>
-      </a>
-    </li>
-    <li class='card'>
-      <a href="https://blog.fleek.xyz/">
-        <div class='card-top-row'>
-          <img src="./assets/fleekMark.svg" height=31 width=31 />
-          <h2>
-            Fleek Blog
-          </h2>
-        </div>
-        <p>
-          Checkout our Blog for more information about Fleek.
-        </p>
-      </a>
-    </li>
-    <li class='card'>
-      <a href="https://themes.gohugo.io/">
-        <div class='card-top-row'>
-          <img src="./assets/hugo-small.svg" height=31 width=31 />
-          <h2>
-            Hugo themes
-          </h2>
-        </div>
-        <p>
-          Explore the available themes for Hugo.
-        </p>
-      </a>
-    </li>
-  </ul>
-</main>
+  
+  <div id="site-header-controls">
+    
+    <div class="dropdown">
+      <button class="dropdown-btn" aria-haspopup="menu" aria-label="theme selector">
+        <i class="icon icon-brightness"></i>
+        <i class="icon icon-select"></i>
+      </button>
+      <ul role="menu" class="dropdown-menu">
+        <li role="menuitem"><button class="color-scheme" data-value="light"><i class="icon icon-light-mode"></i> Light</button></li>
+        <li role="menuitem"><button class="color-scheme" data-value="dark"><i class="icon icon-dark-mode"></i> Dark &nbsp;</button></li>
+        <li role="menuitem"><button class="color-scheme" data-value="night"><i class="icon icon-night-mode"></i> Night</button></li>
+      </ul>
+    </div>
 
-        </div>
-    </body>
+    
+    <div class="dropdown">
+      <button class="dropdown-btn" aria-haspopup="menu" aria-label="language selector">
+        <i class="icon icon-translate"></i>
+        <i class="icon icon-select"></i>
+      </button>
+      <ul role="menu" class="dropdown-menu">
+        
+          <li role="menuitem"><a href="#">English</a></li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+  <div id="site-header-menu">
+    <nav>
+      <ul>
+        
+        
+        
+          
+          <li><a href="/"  class="active"><i class='icon icon-home'></i>Home</a></li>
+        
+          
+          <li><a href="/docs" ><i class='icon icon-book'></i>Documentation</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+
+  
+  <div id="site-header-search"></div>
+</header>
+    
+<div id="site-main-content-wrapper">
+  <main>
+    <section class="cover">
+      <h1>Your Site Name</h1>
+      <h2>Your Site Description</h2>
+
+      
+        <div class="github-buttons">
+  <a href="https://github.com/your/repo" class="github-button"  data-icon="octicon-star" data-show-count="true" aria-label="Star your/repo on GitHub">Star</a>
+  <a href="https://github.com/your/repo/fork" class="github-button"  data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork your/repo on GitHub">Fork</a>
+
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</div>
+
+      
+
+    </section>
+  </main>
+</div>
+
+    <footer id="site-footer">
+  
+  <div id="site-footer-copyright">
+    <a href="https://your.site" target="_blank">
+      <i class="icon icon-copyright"></i> 2023 Your Name
+    </a>
+  </div>
+
+  
+  <div id="site-footer-social">
+
+    
+
+    
+
+    
+
+    
+
+  </div>
+
+  
+  <div id="site-footer-fund">
+
+    
+
+    
+
+  </div>
+
+  
+  <div id="site-footer-love">
+    Made with <i class="icon icon-love icon-colored"></i> &nbsp;from&nbsp;<a href="https://docura.github.io/" target="_blank">Docura</a>
+  </div>
+</footer>
+    
+
+
+
+
+
+
+<script type="text/javascript" src="/js/base.min.js"></script>
+
+
+
+  
+  <script src="/js/component/docsearch.min.js"></script>
+  <script type="application/javascript">
+      docsearch({
+          container: '#site-header-search',
+          appId: '',
+          indexName: '',
+          apiKey: '',
+      });
+  </script>
+
+
+<script type="application/javascript">
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js?2024-02-26')
+            .catch(function(err) {console.error('ServiceWorker registration failed: ', err);});
+    }
+</script>
+  </body>
 </html>
