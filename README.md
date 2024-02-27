@@ -2,9 +2,9 @@
 
 ![image](https://github.com/fleekxyz/hugo-template/assets/55561695/29b1eca4-3c27-4285-a468-7737d8ce5920)
 
-## 🚀 Project Structure
+## 🚀 Project Structure buiding
 
-Inside of your Hugo project, you'll see the following folders and files:
+Inside of your Hugo project, you'll see the following folders and files: test
 
 ```
 /
