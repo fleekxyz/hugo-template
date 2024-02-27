@@ -1,5 +1,5 @@
 languageCode = 'en-us'
 title = 'Hugo + Fleek Starter kit'
-theme = 'fleek-basic'
+theme = 'docura'
 relativeURLs = true
 
